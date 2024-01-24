@@ -40,3 +40,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 #Using an external API that uses GraphQL
 gem 'graphql'
 
+#To integrate GraphQL, make requests
+gem 'faraday'
+
+#RSpec to run tests -> bundle exec rspec
+gem 'rspec-rails', '~> 3.0'
